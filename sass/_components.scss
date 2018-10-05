@@ -193,3 +193,17 @@
   text-align: center;
   padding: 2.5rem;
 }
+
+
+/////////
+//GALLERY
+
+.gallery {
+  display: flex;
+
+  &__photo {
+    //always use flexible images for responsive design
+    width: 100%;
+    display: block; //no whitespace underneath images
+  }
+}
