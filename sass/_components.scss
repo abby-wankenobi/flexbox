@@ -213,18 +213,22 @@
 //HOTEL OVERVIEW
 
 .overview {
+  display: flex;
 
   &__heading {
 
   }
 
   &__stars {
-
+    //element does not fill entire space
+    margin-right: auto;
   }
 
   &__icon-star,
   &__icon-location {
-
+    width: 1.75rem;
+    height: 1.75rem;
+    fill: var(--color-primary);
   }
 
   &__location {
